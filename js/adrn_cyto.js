@@ -5,7 +5,6 @@ var cy = window.cy = cytoscape({
   container: document.getElementById('cyadrn'),
   boxSelectionEnabled: false,
   autounselectify: true,
-
   layout: {
     name: 'circle'
   },
@@ -38,3 +37,4 @@ var cy = window.cy = cytoscape({
   ],
   elements: json
 });
+

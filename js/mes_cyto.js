@@ -5,7 +5,6 @@ var cy = window.cy = cytoscape({
   container: document.getElementById('cymes'),
   boxSelectionEnabled: false,
   autounselectify: true,
-
   layout: {
     name: 'circle'
   },
